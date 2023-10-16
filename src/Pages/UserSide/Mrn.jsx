@@ -8,6 +8,6 @@ const Mrn = () => {
         <h1>MRN</h1>
         </div>
     );
-    }   
+}   
 
 export default Mrn

@@ -38,18 +38,18 @@ const Billing = () => {
      * @param {number} quantitySold - The quantity sold of the item.
      * @returns {void}
      */
-    const updateGrnQuantity = (itemName, quantitySold) => {
-        const updatedGrn = grn.map((item) => {
-        if (item.ItemName === itemName) {
-            // Decrease the quantity count of the selected item
-            item.Quantity -= quantitySold;
-        }
-        return item;
-        });
+    // const updateGrnQuantity = (itemName, quantitySold) => {
+    //     const updatedGrn = grn.map((item) => {
+    //     if (item.ItemName === itemName) {
+    //         // Decrease the quantity count of the selected item
+    //         item.Quantity -= quantitySold;
+    //     }
+    //     return item;
+    //     });
 
-        // Update the state with the new GRN data
-        setGrn(updatedGrn);
-    };
+    //     // Update the state with the new GRN data
+    //     setGrn(updatedGrn);
+    // };
 
     /**
      * Adds a new item to the invoice and updates the GRN.
@@ -118,14 +118,14 @@ const Billing = () => {
      * Apply the discount as a percentage of the total amount.
      * @returns {void}
      */
-    const applyDiscount = () => {
-        const discountAmount = (discountPercentage / 100) * totalAmount;
-        const discountedTotalAmount = totalAmount - discountAmount;
+    // const applyDiscount = () => {
+    //     const discountAmount = (discountPercentage / 100) * totalAmount;
+    //     const discountedTotalAmount = totalAmount - discountAmount;
 
-        // Update the total amount with the discount applied
-        setTotalAmount(discountedTotalAmount);
-        // setDiscountPercentage(0); // Reset discount percentage
-    };
+    //     // Update the total amount with the discount applied
+    //     setTotalAmount(discountedTotalAmount);
+    //     // setDiscountPercentage(0); // Reset discount percentage
+    // };
 
 
     /**
