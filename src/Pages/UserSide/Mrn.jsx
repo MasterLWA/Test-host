@@ -1,4 +1,6 @@
 import NavButton from "../../Components/NavButtons";
+import React, { useState, useEffect } from "react"
+
 
 const Mrn = () => {
     return (
@@ -8,6 +10,6 @@ const Mrn = () => {
         <h1>MRN</h1>
         </div>
     );
-}   
+    }   
 
 export default Mrn
