@@ -21,10 +21,9 @@ const RouterApp = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Navigate to="/billing" />} />
+        <Route path="/" element={<Navigate to="/login" />} />
         <Route path="/" element={<Login />} />
         <Route path="/login" element={<Login />} />
-        <Route path="*" element={<Navigate to="/login" />} />
 
         <Route path="/dashboard" element={<Dashbord />} />
 
