@@ -25,17 +25,17 @@ const RouterApp = () => {
         <Route path="/" element={<Login />} />
         <Route path="/login" element={<Login />} />
 
-        <Route path="/dashboard" element={<Dashbord />} />
+        <Route path="/Dashboard" element={<Dashbord />} />
 
-        <Route path="/billing" element={<Billing />} />
+        <Route path="/Billing" element={<Billing />} />
 
-        <Route path="/grn" element={<Grn />} />
-        <Route path="/editgrn/:id" element={<Editgrn />} />
+        <Route path="/Grn" element={<Grn />} />
+        <Route path="/Editgrn/:id" element={<Editgrn />} />
 
-        <Route path="/mrn" element={<Mrn />} />
+        <Route path="/Mrn" element={<Mrn />} />
 
-        <Route path="/suppliers" element={<Supplier />} />
-        <Route path="/suppliers/:id" element={<Editsupplier />} />
+        <Route path="/Suppliers" element={<Supplier />} />
+        <Route path="/Suppliers/:id" element={<Editsupplier />} />
 
 
       </Routes>
