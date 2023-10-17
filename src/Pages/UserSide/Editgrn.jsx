@@ -1,4 +1,4 @@
-import NavButton from "../../Components/NavButtons"
+
 // ItemName,
 // ItemCode,
 // Quantity,
@@ -11,7 +11,6 @@ import NavButton from "../../Components/NavButtons"
 const Editgrn = () => {
     return(
         <div>
-            <NavButton />
             {/* form to add supplier */}
             <div className="form container text-center m-5 p-5 border border-dark rounded bg-light shadow rounded mx-auto w-75">
 
